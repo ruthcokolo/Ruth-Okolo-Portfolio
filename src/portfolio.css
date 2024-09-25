@@ -11,7 +11,7 @@
     --bg-color: #080808;
     --second-bg-color: #101010;
     --text-color: white;
-    --main-color: yellow
+    --main-color: green;
 }
 
 html {
@@ -55,7 +55,7 @@ body{
     transform: scale(1.1);
 }
 span{
-    background: linear-gradient(180deg, yellow 20%, #048804 65%, #046b1ae9 80%);
+    background: linear-gradient(180deg, #048804 65%, #046b1ae9 80%);
     letter-spacing: 1px;
     background-clip: text;
     color: transparent;
@@ -78,7 +78,7 @@ span{
     font-size: 1.8rem;
     padding: 1rem 2rem;
     border-radius: 3rem;
-    background: linear-gradient(180deg, yellow 10%, #048804 65%, #046b1ae9 80%);
+    background: linear-gradient(180deg, #048804 65%, #046b1ae9 80%);
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -251,7 +251,7 @@ span{
 
 .services {
     background-color: var(--bg-color);
-    color: black;
+    color: white;
     height: 100vh;
     padding-left: 10vw;
     padding-right: 10vw;
